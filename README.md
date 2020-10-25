@@ -7,8 +7,8 @@ the initial code by adding two timing calls using clock_gettime(CLOCK_PROCESS_CP
 
 The program compiles and runs efficiently with no bugs, the maximum # of threads allowed is 513 - the graphs attached in the Word Document also end there.
 
-- Sources Used Included Below -
-- Example codes provided by Dr. Kar were also used as reference. -
+Sources Used Included Below -
+(Example codes provided by Dr. Kar were also used as reference.)
 Clock Calls:
 https://linux.die.net/man/3/clock_gettime
 https://stackoverflow.com/questions/14270300/what-is-the-difference-between-clock-monotonic-clock-monotonic-raw
@@ -26,7 +26,7 @@ The program compiles and runs efficiently with no major bugs - however the progr
 In addition to that; the program will output the number of the correct amount of inputs but when compared to an online generator it seems as if the program may print
 one or two values less at times. I wasn't able to figure out if it was an error with the array output or if the output is indeed correct.
 
-- Sources Used Included Below -
+Sources Used Included Below -
 Fibonacci Sequence:
 https://www.programiz.com/c-programming/examples/fibonacci-series
 https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
@@ -65,7 +65,7 @@ and print them out correspondingly once for every word in the phrase.
 
 The program compiles and runs efficiently with no major bugs, although it does not react well to symbols and may return a core dump if used.
 
-- Sources Used Included Below -
+Sources Used Included Below -
 Command Arguments:
 https://stackoverflow.com/questions/46321605/string-or-character-input-from-command-line-in-c
 https://stackoverflow.com/questions/48333430/iterate-through-argv
